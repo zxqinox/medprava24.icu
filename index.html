@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МедСправки - Быстрое оформление медицинских справок</title>
+    <meta name="description" content="Профессиональное оформление медицинской документации в Москве. Быстро, надежно, конфиденциально.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Добавляем прелоадер -->
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+</head>
+<body>
+    <!-- Переключатель темы -->
+    <button class="theme-toggle" aria-label="Переключить тему">
+        <i class="fas fa-sun"></i>
+    </button>
+
+    <!-- Кнопка быстрой связи -->
+    <div class="quick-contact">
+        <a href="https://t.me/+5fFpykhjbdJjZmQx" target="_blank" class="contact-float telegram">
+            <i class="fab fa-telegram"></i>
+        </a>
+        <a href="https://wa.me/79991234567" target="_blank" class="contact-float whatsapp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <button class="contact-float scroll-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <label for="logo-upload" class="logo-container">
+                    <img src="images/default-logo.png" alt="МедСправки" id="logo-image">
+                    <input type="file" id="logo-upload" accept="image/*" style="display: none;">
+                </label>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Главная</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#documents">Документы</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+                <li>
+                    <div class="contact-dropdown">
+                        <button class="contact-button">
+                            <i class="fas fa-comments"></i> Связаться с нами
+                        </button>
+                        <div class="contact-dropdown-content">
+                            <a href="https://t.me/+5fFpykhjbdJjZmQx" target="_blank">
+                                <i class="fab fa-telegram"></i> Telegram
+                            </a>
+                            <a href="https://wa.me/79991234567" target="_blank">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Профессиональное оформление медицинской документации</h1>
+            <p class="hero-subtitle">Быстро. Надежно. Конфиденциально.</p>
+            <div class="hero-features">
+                <div class="feature">
+                    <i class="fas fa-clock"></i>
+                    <span>Срочное оформление</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Гарантия подлинности</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-user-lock"></i>
+                    <span>Конфиденциальность</span>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#services" class="cta-button">Наши услуги</a>
+                <a href="https://t.me/+5fFpykhjbdJjZmQx" target="_blank" class="cta-button secondary">
+                    <i class="fab fa-telegram"></i> Получить консультацию
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Прокрутите вниз</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>Наши услуги</h2>
+            <p>Оформляем все виды медицинских документов</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-file-medical"></i>
+                <h3>Медицинские справки</h3>
+                <p>Оформление всех видов медицинских справок в кратчайшие сроки</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Справки для работы</li>
+                    <li><i class="fas fa-check"></i> Справки для учебы</li>
+                    <li><i class="fas fa-check"></i> Справки в бассейн</li>
+                </ul>
+                <a href="https://t.me/+5fFpykhjbdJjZmQx" target="_blank" class="service-button">Заказать</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-notes-medical"></i>
+                <h3>Медицинские заключения</h3>
+                <p>Профессиональные медицинские заключения от квалифицированных специалистов</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Заключения врачей</li>
+                    <li><i class="fas fa-check"></i> Результаты анализов</li>
+                    <li><i class="fas fa-check"></i> Медицинские карты</li>
+                </ul>
+                <a href="https://t.me/+5fFpykhjbdJjZmQx" target="_blank" class="service-button">Заказать</a>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-hospital-user"></i>
+                <h3>Медкнижки</h3>
+                <p>Оформление и продление медицинских книжек для всех категорий работников</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Оформление с нуля</li>
+                    <li><i class="fas fa-check"></i> Продление</li>
+                    <li><i class="fas fa-check"></i> Все необходимые анализы</li>
+                </ul>
+                <a href="https://t.me/+5fFpykhjbdJjZmQx" target="_blank" class="service-button">Заказать</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="process" class="process">
+        <div class="section-header">
+            <h2>Как мы работаем</h2>
+            <p>Простой и быстрый процесс получения документов</p>
+        </div>
+        <div class="process-steps">
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-comments"></i>
+                    <span class="step-number">1</span>
+                </div>
+                <h3>Консультация</h3>
+                <p>Свяжитесь с нами любым удобным способом</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-file-alt"></i>
+                    <span class="step-number">2</span>
+                </div>
+                <h3>Оформление</h3>
+                <p>Подготовка необходимых документов</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-check-circle"></i>
+                    <span class="step-number">3</span>
+                </div>
+                <h3>Получение</h3>
+                <p>Получите готовые документы</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="documents" class="documents">
+        <div class="section-header">
+            <h2>Виды документов</h2>
+            <p>Оформляем все виды медицинской документации</p>
+        </div>
+        <div class="documents-grid">
+            <div class="document-item">
+                <img src="images/doc1.jpg" alt="Справка для работы">
+                <div class="document-overlay">
+                    <h3>Справки для работы</h3>
+                    <p>Форма 086/у и другие</p>
+                    <a href="https://t.me/+5fFpykhjbdJjZmQx" target="_blank" class="document-button">Заказать</a>
+                </div>
+            </div>
+            <div class="document-item">
+                <img src="images/doc2.jpg" alt="Справка для учебы">
+                <div class="document-overlay">
+                    <h3>Справки для учебы</h3>
+                    <p>Форма 026/у и другие</p>
+                    <a href="https://t.me/+5fFpykhjbdJjZmQx" target="_blank" class="document-button">Заказать</a>
+                </div>
+            </div>
+            <div class="document-item">
+                <img src="images/doc3.jpg" alt="Медкнижки">
+                <div class="document-overlay">
+                    <h3>Медицинские книжки</h3>
+                    <p>Для всех профессий</p>
+                    <a href="https://t.me/+5fFpykhjbdJjZmQx" target="_blank" class="document-button">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="section-header">
+            <h2>Контактная информация</h2>
+            <p>Свяжитесь с нами удобным способом</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="contact-text">
+                        <h4>Адрес</h4>
+                        <p>Москва, Ленинский пр-т, д. 59с4</p>
+                        <a href="https://yandex.ru/maps/-/ТЕКСТ_ССЫЛКИ" target="_blank" class="map-link">
+                            Показать на карте
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <div class="contact-text">
+                        <h4>Режим работы</h4>
+                        <p>Пн-Пт: 9:00 - 22:00</p>
+                        <p>Сб-Вс: 10:00 - 20:00</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="contact-text">
+                        <h4>Email</h4>
+                        <a href="mailto:pravamed24@mail.ru">pravamed24@mail.ru</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-telegram"></i>
+                    <div class="contact-text">
+                        <h4>Telegram</h4>
+                        <a href="https://t.me/+5fFpykhjbdJjZmQx" target="_blank">Написать в Telegram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-action">
+                <div class="contact-card">
+                    <h3>Нужна консультация?</h3>
+                    <p>Свяжитесь с нами прямо сейчас</p>
+                    <div class="contact-buttons">
+                        <a href="https://t.me/+5fFpykhjbdJjZmQx" target="_blank" class="contact-button large">
+                            <i class="fab fa-telegram"></i> Написать в Telegram
+                        </a>
+                        <a href="https://wa.me/79991234567" target="_blank" class="contact-button large secondary">
+                            <i class="fab fa-whatsapp"></i> Написать в WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <img src="images/default-logo.png" alt="МедСправки" id="footer-logo-image">
+                </div>
+                <p>Профессиональное оформление медицинской документации</p>
+            </div>
+            <div class="footer-links">
+                <h4>Навигация</h4>
+                <a href="#home">Главная</a>
+                <a href="#services">Услуги</a>
+                <a href="#documents">Документы</a>
+                <a href="#contacts">Контакты</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Контакты</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Москва, Ленинский пр-т, д. 59с4</p>
+                <p><i class="fas fa-clock"></i> Пн-Пт: 9:00 - 22:00</p>
+                <p><i class="fas fa-envelope"></i> pravamed24@mail.ru</p>
+            </div>
+            <div class="footer-social">
+                <h4>Мы в соцсетях</h4>
+                <div class="social-links">
+                    <a href="https://t.me/+5fFpykhjbdJjZmQx" target="_blank" class="social-button">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="https://wa.me/79991234567" target="_blank" class="social-button">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" target="_blank" class="social-button">
+                        <i class="fab fa-vk"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 МедСправки. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Cookie consent -->
+    <div id="cookie-consent" class="cookie-consent">
+        <p>Мы используем файлы cookie для улучшения работы сайта. Продолжая использовать сайт, вы соглашаетесь с использованием файлов cookie.</p>
+        <button id="accept-cookies" class="cookie-button">Принять</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
